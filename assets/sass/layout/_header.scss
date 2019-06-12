@@ -1,0 +1,21 @@
+.header{
+  height: 840px;
+  background-image: url(../images/post-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+
+  &__content{
+    text-align: center;
+  }
+
+  &__title{
+    font-family: $playfair;
+    font-size: $xx-large;
+    font-weight: $extra-bold;
+    font-style: italic;
+    display: inline-block;
+    color: $white;
+    margin-top: 120px;
+  }
+}

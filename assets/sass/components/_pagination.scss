@@ -1,0 +1,42 @@
+.section-grey {
+  background-color: $platinum;
+  height: 150px;
+  padding: 50px;
+
+  &__text-red
+  {
+    font-size: $medium;
+    font-weight: $extra-light;
+    color: $fuzzy-wuzzy;
+    letter-spacing: 4.5px;
+  }
+}
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: $white;
+    text-decoration: none;
+    background-color: $nickel;
+    border-color: $nickel;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: $raisin-black;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}

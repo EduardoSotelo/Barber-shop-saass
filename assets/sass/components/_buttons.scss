@@ -1,0 +1,19 @@
+.buttons{
+  padding: 0.6rem 0.8rem;
+  border-radius: 30px;
+  color: $white;
+  font-weight: $extra-light;
+  display: inline-block;
+}
+
+.buttons__default{
+  @extend .buttons;
+
+  background-color: $nickel;
+  border: 1px solid $ligth-gray;
+
+  &:hover {
+    background-color: $ligth-gray;
+    border-color: $nickel;
+  }
+}

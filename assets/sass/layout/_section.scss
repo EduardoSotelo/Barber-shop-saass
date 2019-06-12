@@ -1,0 +1,11 @@
+.section-white {
+  background-color: $white;
+
+  &__text-red
+  {
+    font-size: $medium;
+    font-weight: $extra-light;
+    color: $fuzzy-wuzzy;
+    letter-spacing: 4.5px;
+  }
+}
